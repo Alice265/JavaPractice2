@@ -33,7 +33,7 @@ class Tricycle extends Cycle {
 }
 
 class Ride {
-    public static void ride(Cycle cycle) {
+    public static void ride(Cycle cycle){
         cycle.play();
     }
 
@@ -44,6 +44,9 @@ class Ride {
         ride(unicycle);
         ride(bicycle);
         ride(tricycle);
+        Unicycle.wheels();
+        Bicycle.wheels();
+        Tricycle.wheels();
+
     }
 }
-
